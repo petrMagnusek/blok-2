@@ -22,8 +22,6 @@ public class Main {
     }
 
     private static void prnValues(Car car) {
-        System.out.println("maker is: " + car.getMake());
-        System.out.println("model is: " + car.getModel());
-        System.out.println("year is: " + car.getYear());
+        System.out.println("maker is: " + car.getMake() + "\nmodel is: " + car.getModel() + "\nyear is:  " + + car.getYear());
     }
 }
