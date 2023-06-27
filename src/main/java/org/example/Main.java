@@ -23,11 +23,10 @@ public class Main {
         System.out.println("Obsah je: " + area);
 */
 
-        Student student1 = new Student("Karel", 22);
-        Student student2 = new Student("Petr", 45);
+
         List<Student> students = new LinkedList<Student>();
-        students.add(student1);
-        students.add(student2);
+        students.add(new Student("Karel", 22));
+        students.add(new Student("Petr", 45));
         Course course = new Course(students);
         course.printStudents();
     }
